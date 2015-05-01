@@ -1,0 +1,25 @@
+body{
+	margin:0;
+	overflow:hidden;
+}
+#game_container{
+	width:960px;
+	height:540px;
+	position: relative;
+	background: #000;
+}
+#game_container > div{
+	position: absolute;
+	width:960px;
+	height:480px;
+}
+#mask{
+	background: url(../img/mask.png);
+}
+#runner_canvas{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left:330px;
+	top:240px;
+}
