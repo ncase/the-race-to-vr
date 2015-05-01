@@ -1,6 +1,7 @@
 body{
 	margin:0;
 	overflow:hidden;
+	background: #333;
 }
 #game_container{
 	width:960px;
@@ -22,4 +23,13 @@ body{
 	position: absolute;
 	left:330px;
 	top:240px;
+}
+#instructions{
+	font-size: 30px;
+	color: #ddd;
+	font-family: sans-serif;
+	font-weight: 100;
+	width: 960px;
+	text-align: center;
+	margin-top: 20px;
 }
