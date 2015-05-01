@@ -26,8 +26,8 @@ function init() {
 	//// SKYBOX ////
 	////////////////
 	var urls = [
-		"/skybox/sky.png","/skybox/sky.png","/skybox/sky.png",
-		"/skybox/sky.png","/skybox/sky.png","/skybox/sky.png"
+		"skybox/sky.png","skybox/sky.png","skybox/sky.png",
+		"skybox/sky.png","skybox/sky.png","skybox/sky.png"
 	];
 	var textureCube = THREE.ImageUtils.loadTextureCube( urls, THREE.CubeRefractionMapping );
 	var shader = THREE.ShaderLib[ "cube" ];
